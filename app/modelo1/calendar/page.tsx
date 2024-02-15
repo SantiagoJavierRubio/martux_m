@@ -23,19 +23,93 @@ export default function Agenda() {
           </Link>
         </div>
       </nav>
-      <section>
-        <h2>Upcoming events</h2>
-        <AgendaItem />
-        <AgendaItem />
-        <AgendaItem />
-        <AgendaItem />
+      <section className="w-full max-w-5xl mx-auto">
+        <h2 className="text-4xl mt-8 mb-6">Upcoming events</h2>
+        <div className="w-full flex flex-col items-center justify-center gap-2">
+          <AgendaItem
+            date={new Date()}
+            title="Lorem"
+            description="Lorem ipsum dolor sit amet consectetur adipisicing elit. A eligendi
+          dolorum dolore asperiores pariatur repudiandae accusamus excepturi ex
+          sit fugiat tenetur beatae quae assumenda recusandae labore in aliquid,
+          ipsam officiis?"
+            url="kdjaskda"
+            imgUrl="/profile1.jpg"
+          />
+          <AgendaItem
+            date={new Date()}
+            title="Lorem"
+            description="Lorem ipsum dolor sit amet consectetur adipisicing elit. A eligendi
+          dolorum dolore asperiores pariatur repudiandae accusamus excepturi ex
+          sit fugiat tenetur beatae quae assumenda recusandae labore in aliquid,
+          ipsam officiis?"
+            url="kdjaskda"
+            imgUrl="/profile1.jpg"
+          />
+          <AgendaItem
+            date={new Date()}
+            title="Lorem"
+            description="Lorem ipsum dolor sit amet consectetur adipisicing elit. A eligendi
+          dolorum dolore asperiores pariatur repudiandae accusamus excepturi ex
+          sit fugiat tenetur beatae quae assumenda recusandae labore in aliquid,
+          ipsam officiis?"
+            url="kdjaskda"
+            imgUrl="/profile1.jpg"
+          />
+          <AgendaItem
+            date={new Date()}
+            title="Lorem"
+            description="Lorem ipsum dolor sit amet consectetur adipisicing elit. A eligendi
+          dolorum dolore asperiores pariatur repudiandae accusamus excepturi ex
+          sit fugiat tenetur beatae quae assumenda recusandae labore in aliquid,
+          ipsam officiis?"
+            url="kdjaskda"
+            imgUrl="/profile1.jpg"
+          />
+        </div>
       </section>
-      <section>
-        <h2>Past events</h2>
-        <AgendaItem />
-        <AgendaItem />
-        <AgendaItem />
-        <AgendaItem />
+      <section className="w-full max-w-5xl mx-auto">
+        <h2 className="text-4xl mt-8 mb-6">Previous events</h2>
+        <AgendaItem
+          date={new Date()}
+          title="Lorem"
+          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. A eligendi
+          dolorum dolore asperiores pariatur repudiandae accusamus excepturi ex
+          sit fugiat tenetur beatae quae assumenda recusandae labore in aliquid,
+          ipsam officiis?"
+          url="kdjaskda"
+          imgUrl="/eclipse1.jpg"
+        />
+        <AgendaItem
+          date={new Date()}
+          title="Lorem"
+          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. A eligendi
+          dolorum dolore asperiores pariatur repudiandae accusamus excepturi ex
+          sit fugiat tenetur beatae quae assumenda recusandae labore in aliquid,
+          ipsam officiis?"
+          url="kdjaskda"
+          imgUrl="/profile1.jpg"
+        />
+        <AgendaItem
+          date={new Date()}
+          title="Lorem"
+          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. A eligendi
+          dolorum dolore asperiores pariatur repudiandae accusamus excepturi ex
+          sit fugiat tenetur beatae quae assumenda recusandae labore in aliquid,
+          ipsam officiis?"
+          url="kdjaskda"
+          imgUrl="/profile1.jpg"
+        />
+        <AgendaItem
+          date={new Date()}
+          title="Lorem"
+          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. A eligendi
+          dolorum dolore asperiores pariatur repudiandae accusamus excepturi ex
+          sit fugiat tenetur beatae quae assumenda recusandae labore in aliquid,
+          ipsam officiis?"
+          url="kdjaskda"
+          imgUrl="/profile1.jpg"
+        />
       </section>
     </main>
   );
