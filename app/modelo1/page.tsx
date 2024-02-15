@@ -11,8 +11,14 @@ export default function Modelo1() {
     <SectionContainer>
       <Section className="bg-zinc-950 h-screen relative flex flex-col items-center justify-center text-center px-24">
         <div className="absolute inset-1/2 aspect-square max-w-full h-full -translate-y-1/2 -translate-x-1/2">
-          <Image src="/eclipse1.jpg" fill alt="art image" objectFit="cover" />
-          <div className="w-full h-full relative object-cover bg-gradient-radial from-90% from-transparent  to-zinc-950" />
+          <Image
+            src="/eclipse1.jpg"
+            fill
+            alt="art image"
+            objectFit="cover"
+            className="opacity-95"
+          />
+          <div className="w-full h-full relative object-cover bg-gradient-radial from-80% from-transparent to-95% to-zinc-950" />
         </div>
         <div className="z-20">
           <h1 className="text-4xl font-bold text-white">Martux_M</h1>
@@ -32,7 +38,7 @@ export default function Modelo1() {
           id="main"
           className="absolute top-0 inset-x-0 text-white h-12 flex items-center justify-evenly"
         >
-          <Link className="hover:underline" href="/modelo1/work">
+          <Link className="hover:underline" href="/modelo1/work/music">
             Work
           </Link>
           <Link className="hover:underline" href="#about">
@@ -100,6 +106,12 @@ export default function Modelo1() {
             perferendis cumque eum sequi.
           </p>
           <p className="col-span-3 col-start-1 text-lg">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic vero
+            esse ipsam, cupiditate voluptate ut consequuntur, accusamus eligendi
+            laborum nobis soluta illum sequi necessitatibus debitis? Dolorum
+            perferendis cumque eum sequi.
+          </p>
+          <p className="col-span-3 col-start-3 text-lg">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic vero
             esse ipsam, cupiditate voluptate ut consequuntur, accusamus eligendi
             laborum nobis soluta illum sequi necessitatibus debitis? Dolorum
