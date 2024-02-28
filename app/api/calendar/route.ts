@@ -12,6 +12,8 @@ export async function GET() {
   const result = await calendar.events
     .list({
       calendarId: GOOGLE_CALENDAR_ID,
+      orderBy: "startTime",
+      singleEvents: true,
       auth: client,
     })
     .then((res) => res.data);
