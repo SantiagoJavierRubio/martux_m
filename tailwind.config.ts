@@ -8,6 +8,13 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        applemusic: "#fa586a",
+        youtube: "#f00",
+        spotify: "#1ed760",
+        instagram: "#C13584",
+        soundcloud: "#f50",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
