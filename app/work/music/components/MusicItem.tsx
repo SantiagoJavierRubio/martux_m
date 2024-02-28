@@ -2,27 +2,27 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { FaSoundcloud, FaSpotify } from "react-icons/fa";
+import { convertToSrc } from "../../utils/convertToGoogleImageSrc";
+import CoverImage from "./CoverImage";
 
 type MusicItemProps = {
   title: string;
   description: string;
   spotifyUrl?: string;
   soundCloudUrl?: string;
-  imgUrl: string;
+  image: string;
 };
 
 export default function MusicItem({
   description,
-  imgUrl,
+  image,
   title,
   soundCloudUrl,
   spotifyUrl,
 }: MusicItemProps) {
   return (
     <div className="grow w-full grid grid-cols-4 gap-4">
-      <div className="relative aspect-square rounded-md overflow-hidden col-span-1">
-        <Image src={imgUrl} alt={`${title} photo`} fill objectFit="cover" />
-      </div>
+      <CoverImage url={image} alt={title + " cover"} />
       <div className="grow h-full flex flex-col col-span-3 col-start-2 justify-center gap-2">
         <h3 className="font-bold text-xl">{title}</h3>
         <p>{description}</p>

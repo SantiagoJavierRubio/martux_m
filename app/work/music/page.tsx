@@ -1,12 +1,20 @@
 import React from "react";
 import MusicItem from "./components/MusicItem";
+import { promises as fs } from "fs";
+import type { WorkData } from "../utils/workdata";
 
-export default function Music() {
+export default async function Music() {
+  const file = await fs.readFile(process.cwd() + "/app/work/data.json", "utf8");
+  const data = JSON.parse(file) as WorkData;
+
   return (
     <div className="flex flex-col grow p-8">
       <h1 className="text-5xl font-bold uppercase">Music</h1>
       <div className="grow p-6 flex flex-col items-stretch justify-stretch gap-6">
-        <MusicItem
+        {data.music.map((item) => (
+          <MusicItem key={item.title} {...item} />
+        ))}
+        {/* <MusicItem
           title="Lorem Ipsum"
           description="Lorem ipsum dolor sit amet consectetur adipisicing elit. A eligendi
           dolorum dolore asperiores pariatur repudiandae accusamus excepturi ex
@@ -52,7 +60,7 @@ export default function Music() {
           ipsam officiis?"
           imgUrl="/eclipse1.jpg"
           spotifyUrl="sadsdad"
-        />
+        /> */}
       </div>
     </div>
   );

@@ -56,7 +56,6 @@ export function Event({
             </p>
           </div>
         </a>
-        {/* <hr className="bg-black w-1/4 h-0.5" /> */}
         <a
           href={`https://www.google.com/maps/search/?api=1&query=${location}`}
           target="_blank"
