@@ -7,11 +7,11 @@ export default function Layout({
   children: React.ReactNode;
 }>) {
   return (
-    <main>
+    <>
       <Nav />
       <section className="w-full min-h-screen h-full bg-zinc-950 flex py-4 flex-col gap-4 justify-start items-stretch text-white overflow-hidden">
         {children}
       </section>
-    </main>
+    </>
   );
 }
