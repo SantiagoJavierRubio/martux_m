@@ -1,7 +1,6 @@
 import React from "react";
 import { env } from "@/env";
 import { Event, GoogleCalendarEvent } from "./components/Event";
-import Container from "../_components/common/Container";
 
 async function getEvents(): Promise<GoogleCalendarEvent[]> {
   const res = await fetch(`${env.HOST_URL}/api/calendar`, {
@@ -16,10 +15,10 @@ async function getEvents(): Promise<GoogleCalendarEvent[]> {
 export default async function Calendar() {
   const events = await getEvents();
   return (
-    <Container className="divide-y-2 divide-blue-500">
-      {events.map((event) => (
+    <div className="divide-y-2 divide-gray-500/30">
+      {events.reverse().map((event) => (
         <Event key={event.id} {...event} />
       ))}
-    </Container>
+    </div>
   );
 }
