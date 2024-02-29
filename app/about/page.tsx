@@ -6,7 +6,12 @@ export default function About() {
   return (
     <div className="grid grid-cols-5 w-full h-full grow">
       <div className="col-span-2 relative">
-        <Image src="/profile1.jpg" alt="profile" fill objectFit="contain" />
+        <Image
+          src="/profile1.jpg"
+          alt="profile"
+          fill
+          className="object-cover"
+        />
       </div>
       <div className="col-span-3 col-start-3 flex flex-col items-center justify-center w-full gap-2 pt-8">
         <h3 className="text-lg">Meet the artist</h3>

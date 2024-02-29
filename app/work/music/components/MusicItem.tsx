@@ -1,49 +1,34 @@
-import Image from "next/image";
-import Link from "next/link";
 import React from "react";
-import { FaSoundcloud, FaSpotify } from "react-icons/fa";
-import { convertToSrc } from "../../utils/convertToGoogleImageSrc";
 import CoverImage from "./CoverImage";
-
-type MusicItemProps = {
-  title: string;
-  description: string;
-  spotifyUrl?: string;
-  soundCloudUrl?: string;
-  image: string;
-};
+import SocialLinks from "@/app/components/SocialLinks";
+import { MusicEntry } from "../../utils/workdata";
 
 export default function MusicItem({
   description,
   image,
   title,
-  soundCloudUrl,
+  soundcloudUrl,
   spotifyUrl,
-}: MusicItemProps) {
+  appleUrl,
+  youtubeUrl,
+  author,
+}: MusicEntry) {
   return (
     <div className="grow w-full grid grid-cols-4 gap-4">
       <CoverImage url={image} alt={title + " cover"} />
       <div className="grow h-full flex flex-col col-span-3 col-start-2 justify-center gap-2">
-        <h3 className="font-bold text-xl">{title}</h3>
+        <h3 className="font-bold text-2xl my-2">
+          {title} <span className="font-normal text-xl">- {author}</span>
+        </h3>
         <p>{description}</p>
-        <div className="flex items-center gap-4 p-4">
-          {spotifyUrl && (
-            <Link
-              href={spotifyUrl}
-              className="hover:text-green-600 transition-colors"
-            >
-              <FaSpotify size={24} />
-            </Link>
-          )}
-          {soundCloudUrl && (
-            <Link
-              href={soundCloudUrl}
-              className="hover:text-orange-600 transition-colors"
-            >
-              <FaSoundcloud size={28} />
-            </Link>
-          )}
-        </div>
+        <SocialLinks
+          spotifyUrl={spotifyUrl}
+          soundcloudUrl={soundcloudUrl}
+          appleUrl={appleUrl}
+          youtubeUrl={youtubeUrl}
+          size={24}
+          className="p-4"
+        />
       </div>
     </div>
   );
