@@ -4,7 +4,7 @@ import VisualItem from "./components/VisualItem";
 export default function Visual() {
   return (
     <div className="flex flex-col grow p-8">
-      <h1 className="text-5xl font-bold uppercase">
+      <h1 className="text-5xl font-bold uppercase font-orbitron">
         Installations & digital art
       </h1>
       <div className="grow grid grid-flow-row sm:grid-cols-3 md:grid-cols-4 gap-3 p-2 my-6">

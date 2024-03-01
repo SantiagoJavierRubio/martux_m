@@ -1,14 +1,18 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Rubik, Orbitron } from "next/font/google";
 import "./globals.css";
 import NavBar from "@/app/components/NavBar";
 import Footer from "@/app/components/Footer";
 
-const inter = Inter({ subsets: ["latin"] });
+const rubik = Rubik({ subsets: ["latin"], variable: "--font-rubik" });
+export const orbitron = Orbitron({
+  subsets: ["latin"],
+  variable: "--font-orbitron",
+});
 
 export const metadata: Metadata = {
   title: "Martux_M",
-  description: "",
+  description: "Italian sound artist, composer, performer and producer",
 };
 
 export default function RootLayout({
@@ -18,9 +22,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={`${rubik.variable} ${orbitron.variable}`}>
         <NavBar />
-        <main className="bg-zinc-50 min-h-screen flex flex-col justify-stretch items-stretch pt-24">
+        <main className="bg-zinc-50 min-h-screen flex flex-col justify-stretch items-stretch pt-24 font-rubik">
           {children}
         </main>
         <Footer />

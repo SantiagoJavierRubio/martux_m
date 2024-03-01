@@ -15,7 +15,7 @@ export default function About() {
       </div>
       <div className="col-span-3 col-start-3 flex flex-col items-center justify-center w-full gap-2 pt-8">
         <h3 className="text-lg">Meet the artist</h3>
-        <h1 className="text-6xl font-extrabold">MARTUX_M</h1>
+        <h1 className="text-6xl font-extrabold font-orbitron">MARTUX_M</h1>
         <div className="p-8 text-justify leading-6">
           <p>
             <span className="font-semibold">Maurizio Martusciello</span>, also

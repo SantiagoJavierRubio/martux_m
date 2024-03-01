@@ -8,6 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        rubik: "var(--font-rubik)",
+        orbitron: "var(--font-orbitron)",
+      },
       colors: {
         applemusic: "#fa586a",
         youtube: "#f00",

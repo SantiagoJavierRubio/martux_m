@@ -11,7 +11,7 @@ export default function Home() {
           alt="profile picture"
         />
       </div>
-      <h1 className="text-6xl row-span-1 row-start-3 font-extrabold">
+      <h1 className="text-6xl row-span-1 row-start-3 font-extrabold font-orbitron">
         MARTUX_M
       </h1>
       <p className="text-xl row-span-2 row-start-4 px-8">

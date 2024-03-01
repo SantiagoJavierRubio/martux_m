@@ -9,7 +9,7 @@ export default async function Music() {
 
   return (
     <div className="flex flex-col grow p-8">
-      <h1 className="text-5xl font-bold uppercase">Music</h1>
+      <h1 className="text-5xl font-bold uppercase font-orbitron">Music</h1>
       <div className="grow p-6 flex flex-col items-stretch justify-stretch gap-6">
         {data.music.map((item) => (
           <MusicItem key={item.title} {...item} />
