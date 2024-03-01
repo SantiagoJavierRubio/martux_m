@@ -5,7 +5,7 @@ import NavBar from "@/app/components/NavBar";
 import Footer from "@/app/components/Footer";
 
 const rubik = Rubik({ subsets: ["latin"], variable: "--font-rubik" });
-export const orbitron = Orbitron({
+const orbitron = Orbitron({
   subsets: ["latin"],
   variable: "--font-orbitron",
 });
