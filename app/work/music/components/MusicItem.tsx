@@ -12,14 +12,18 @@ export default function MusicItem({
   appleUrl,
   youtubeUrl,
   author,
+  label,
 }: MusicEntry) {
   return (
     <div className="grow w-full grid grid-cols-4 gap-4">
       <CoverImage url={image} alt={title + " cover"} />
       <div className="grow h-full flex flex-col col-span-3 col-start-2 justify-center gap-2">
-        <h3 className="font-bold text-2xl my-2">
-          {title} <span className="font-normal text-xl">- {author}</span>
-        </h3>
+        <div className="my-2">
+          <h3 className="font-bold text-2xl">
+            {title} <span className="font-normal text-xl">- {author}</span>
+          </h3>
+          <p className="italic">{label}</p>
+        </div>
         <p>{description}</p>
         <SocialLinks
           spotifyUrl={spotifyUrl}

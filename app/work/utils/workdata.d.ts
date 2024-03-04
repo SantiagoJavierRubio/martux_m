@@ -2,6 +2,7 @@ type MusicEntry = {
   title: string;
   year: number;
   author: string;
+  label: string;
   image: string;
   description: string;
   spotifyUrl?: string;
@@ -16,6 +17,8 @@ type VisualEntry = {
   author?: string;
   image: string;
   description: string;
+  youtubeUrl?: string;
+  vimeoUrl?: string;
 };
 
 export type WorkData = {

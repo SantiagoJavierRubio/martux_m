@@ -4,17 +4,18 @@
             "title": "Nearly Invisible Stitches",
             "year": 2022,
             "author": "Martux_M ft. Lymbic",
+            "label": "Modern Recordings",
             "image": "https://drive.google.com/file/d/1_oWib4c6Qn00ilhJrKSqPc53QfkCJGh8/view?usp=sharing",
             "description": "Remix of Nils Petter Molvær’s track featuring Lymbic.",
             "spotifyUrl": "https://open.spotify.com/intl-es/track/1erDTG0tt0jdiVrZhEYgtx?si=054fef9f8d9b414d",
             "appleUrl": "https://music.apple.com/us/album/nearly-invisible-stitches-martux-m-and-lymbic-remix-single/1603038350",
-            "youtubeUrl": "https://www.youtube.com/watch?v=JxoItTkD8Ng",
-            "soundcloudUrl": "-"
+            "youtubeUrl": "https://www.youtube.com/watch?v=JxoItTkD8Ng"
         },
         {
             "title": "Aural Crave",
             "year": 2022,
             "author": "Martux_M ft. Giulio Maresca",
+            "label": "Festina Lente",
             "image": "https://drive.google.com/file/d/1WifT0QYNN10F83Aa9CwWT8Q_UgMR-iOe/view?usp=sharing",
             "description": "Written and produced alongside Giulio Maresca, \"Aural Crave\" is a fourteen-minute single showcasting melodic house experimentation.",
             "spotifyUrl": "https://open.spotify.com/intl-es/album/3IgGCsvY4v7jQCUFMP6kmY?si=9p8aw9AXRXWVGmEQ3FfLRw",
@@ -26,44 +27,49 @@
             "title": "Chainmode",
             "year": 2022,
             "author": "Martux_M ft. Lymbic",
-            "image": "https://drive.google.com/file/d/1D080xwpbNVzm1eEq3VwhNomjXJpj3lCp/view?usp=drive_link",
+            "label": "Festina Lente",
+            "image": "https://drive.google.com/file/d/1D080xwpbNVzm1eEq3VwhNomjXJpj3lCp/view?usp=sharing",
             "description": "Co-produced with Lymbic, the album offers a captivating journey through electronic vibes, solid grooves, esoteric arpeggios and wild synths, promising a cosmic adventure for the listener. The track “Drive your Cart” was featured in a BMW commercial.",
             "spotifyUrl": "https://open.spotify.com/intl-es/album/0PybkzBSkd6MrU8wJHOjhQ?si=FnMujLPiRGWzzTz0rPU4YQ",
             "appleUrl": "https://music.apple.com/pa/album/chainmode/1657086119",
-            "youtubeUrl": "https://www.youtube.com/watch?v=PFnOD-OjwH4",
-            "soundcloudUrl": "-"
+            "youtubeUrl": "https://www.youtube.com/watch?v=PFnOD-OjwH4"
         },
         {
             "title": "Apollo 11 Reloaded",
             "year": 2019,
             "author": "Martux_M ft. Giulio Maresca",
+            "label": "Parco Della Musica Records",
             "image": "https://drive.google.com/file/d/1yQLTjDuc9hS-Oxa_a18zNtWFPbLIUYw7/view?usp=sharing",
             "description": "A collaborative project with Giulio Maresca, dedicated to the 50th anniversary of the moon landing, unfolds as a complete audiovisual experience. Featuring archival images from the Istituto Luce and the Italian Space Agency curated by Bruno Palma, the project premiered live on New Year’s Eve at the Festa di Roma.\nThe album itself embodies an electronic psychedelia, offering a musical odyssey that narrates the various stages of the Apollo 11 mission. From the departure in the opening track “Lift Off” to the return to Earth depicted in “Return,” the journey traverses the diverse realms of electronic music. Techno, dub, and ambient elements intermingle with melodic psychedelia, encapsulating the essence of the historic voyage.",
             "spotifyUrl": "https://open.spotify.com/intl-es/album/5RnPuDPq6Nspi2oGzfOG2p?si=Jy9hhlkvSNyxlwHpY0xpAQ",
             "appleUrl": "https://music.apple.com/us/album/apollo-11-reloaded-feat-giulio-maresca/1468194184",
-            "youtubeUrl": "https://www.youtube.com/watch?v=6xdEbXy5jWQ",
-            "soundcloudUrl": "-"
+            "youtubeUrl": "https://www.youtube.com/watch?v=6xdEbXy5jWQ"
         },
         {
             "title": "My Love Supreme",
             "year": 2015,
             "author": "Martux_M Crew ft. Francesco Bearzatti",
+            "label": "Musica Jazz",
             "image": "https://drive.google.com/file/d/1IcvYNJzSWYtdjcOmntSUvr4GIADwrz_T/view?usp=sharing",
             "description": "A new jazz album presenting a tribute to John Coltrane's \"A Love Supreme\". Martux_M wanted to investigate the essence of Coltrane's masterpiece and felt the need to revisit the message of gratitude that inspired him. \"My Love Supreme\" is a celebration of a sacred universal love of this great artist.",
-            "spotifyUrl": "-",
-            "appleUrl": "-",
-            "youtubeUrl": "-",
             "soundcloudUrl": "https://soundcloud.com/martuxm/sets/my-love-supreme"
         },
         {
             "title": "Atlas",
             "year": 2015,
-            "author": "Martux_M Crew ft. Markus Stockhausen"
+            "author": "Martux_M Crew ft. Markus Stockhausen",
+            "label": "Resiliens Recordings",
+            "image": "https://drive.google.com/file/d/1H-C_Gyyhmh0K_H7gN3aRO7Bx69cUIW2Z/view?usp=sharing",
+            "description": "EP featuring German trumpeter Markus Stockhausen.\nCover art: Max Catena",
+            "appleUrl": "https://music.apple.com/ec/album/g-5b/956331914?i=956331921",
+            "youtubeUrl": "https://www.youtube.com/watch?v=rIQ_cMahbYc",
+            "soundcloudUrl": "https://soundcloud.com/xlr8r/premiere-martux-m-crew-markus-stockhausen-mm-01"
         },
         {
             "title": "Imagine",
             "year": 2013,
             "author": "Martux_M Crew",
+            "label": "Parco Della Musica Records",
             "image": "https://drive.google.com/file/d/1NzuZNKhmteIEusCVbOGNRl0iGW4rN3xh/view?usp=sharing",
             "description": "\"Martux_M revisited jazz with an electronic reinterpretation of Miles Davis' iconic work.\nWhile reading his biography, I was struck by the phrase ‘I have to constantly change, it's a curse.’ So I decided to reinterpret those compositions as if Miles were playing them today alongside artists like Jeff Mills or Carl Craig.”\n- Martux_M in Indie for Bunnies interview",
             "spotifyUrl": "https://open.spotify.com/intl-es/album/19VtPPGI0xTcNTA5b8vm2h?si=pIiGf98eS9mCxE_SSalC6w",
@@ -72,20 +78,27 @@
             "soundcloudUrl": "https://soundcloud.com/martux_m-crew/sets/imagine"
         },
         {
-            "title": "About In a Silent Way",
+            "title": "Silence",
+            "year": 2011,
+            "author": "Martux_M ft. Danilo Rea and Paolo Damiani",
+            "label": "Gruppo Editoriale L'Espresso",
+            "image": "https://drive.google.com/file/d/1LPBZcCHMZzoRxv_ssLeuSCviXeKKPH2t/view?usp=sharing",
+            "description": "The album includes traditional and classic songs, such as \"Across the Universe,\" reinterpreted by the trio, as well as original compositions."
+        },
+        {
+            "title": "About A Silent Way",
             "year": 2009,
             "author": "Martux_M",
+            "label": "Itinera",
             "image": "https://drive.google.com/file/d/11N3yh7sbp8NU3NExTLRaOOUuk2mWdYFh/view?usp=sharing",
-            "description": "With \"About In a Silent Way\", Martux_M returned to jazz after many years, but from a different perspective. The album is an electronic reinterpretation of Miles Davis' iconic work. While reading his biography, Martux_M was struck by the phrase: \"I have to constantly change, it's a curse\", which led him to reinterpret those compositions as if Miles were playing them today alongside artists like Jeff Mills or Carl Craig.",
-            "spotifyUrl": "-",
-            "appleUrl": "-",
-            "youtubeUrl": "https://www.youtube.com/watch?v=qUHdDc1cs_M",
-            "soundcloudUrl": "-"
+            "description": "With \"About A Silent Way\", Martux_M returned to jazz after many years, but from a different perspective. The album is an electronic reinterpretation of Miles Davis' iconic work. While reading his biography, Martux_M was struck by the phrase: \"I have to constantly change, it's a curse\", which led him to reinterpret those compositions as if Miles were playing them today alongside artists like Jeff Mills or Carl Craig.",
+            "youtubeUrl": "https://www.youtube.com/watch?v=qUHdDc1cs_M"
         },
         {
             "title": "Reminiscence",
             "year": 2008,
             "author": "Martux_M ft. Danilo Rea",
+            "label": "Parco Della Musica Records",
             "image": "https://drive.google.com/file/d/1DN6reOwHC1DVFPDFibR4X7AXFA6HJ9HS/view?usp=sharing",
             "description": "Jazz and electronics come together in the album co-created with Danilo Rea. Original compositions and free improvisations, featuring the voices of Silvia Colombini and Gian Paolo Fiocchi, result in 12 tracks that transcend ambient music and contemporary classical.",
             "spotifyUrl": "https://open.spotify.com/intl-es/album/3hxJgcTGLY5XMOIkiPn9ww",
@@ -93,81 +106,140 @@
             "soundcloudUrl": "https://soundcloud.com/martuxm/sets/reminiscence"
         },
         {
-            "title": "Strade",
-            "year": 2007
+            "title": "X-Scape Project",
+            "year": 2004,
+            "author": "Martux_M Crew",
+            "label": "Persistence Bit",
+            "image": "https://drive.google.com/file/d/11E8Y4s5XXi8U1AV3KPD_G1MkeHDTak7L/view?usp=sharing",
+            "description": "“X-Scape Project” is a multimedia experience that engages different senses through video and sound. In this audiovisual performance the opposition between material and immaterial is overcome by a labyrinth of light, space, emptiness, and complex vibrations.\nThe video design was made by Mattia Casalegno.\n“X-Scape Project” was presented at the International Festival of Contemporary Music (Venice) and Digital Life Festival (Rome).",
+            "appleUrl": "https://music.apple.com/us/subscribe?mttn3pid=bandsintown_amplified&mttnagencyid=a9p&mttncc=AR&mttnsiteid=125115&mttnsubad=cf-500133725&mttnsubplmnt=100004322",
+            "youtubeUrl": "https://youtu.be/Er2RPzN8QdM?si=bEleY91ijMAqpJI3"
         },
         {
-            "title": "Experimentum Mundi Remix",
+            "title": "Dissectio",
             "year": 2004,
-            "author": "Martux_M ft. Giorgio Battistelli"
-        },
-        {
-            "title": "Project X-Scape",
-            "year": 2004,
-            "author": "Martux_M Crew"
+            "author": "Martux_M",
+            "label": "Stitching Mixer",
+            "image": "https://drive.google.com/file/d/1ezAX_3bB9ftsOJm8AeRDCa_Gk7DEhmj5/view?usp=sharing",
+            "description": "Recorded at the French studios of the Groupe de Musique Electro-Acustique in Albi. \"Dissectio\" was included in the album Veertiende Mixer featuring Kaffe Matthew's tracks."
         },
         {
             "title": "Who is Playing on the Shadow of Whom",
             "year": 2003,
-            "author": "Dogon"
+            "author": "Dogon",
+            "label": "Wallace Records",
+            "image": "https://drive.google.com/file/d/1R_85Mp_XIUjlt3ACGeG508LQWY7-xPA-/view?usp=sharing",
+            "description": "Second album of the trio composed by Økapi, Massimo Pupillo and Martux_M.\nCover art: Camilla Falsini"
         },
         {
-            "title": "RJCTD",
+            "title": "rjctd::nw",
             "year": 2003,
-            "author": "Zelle"
+            "author": "Zelle",
+            "label": "Cubicfabric",
+            "image": "https://drive.google.com/file/d/1kV4uiOhVe0SlhcEgVIp-mv_GW7u91uEm/view?usp=sharing",
+            "description": "Second album of the duet composed by Martux_M and Nicola Catalano."
         },
         {
             "title": "Before and After Dogon",
-            "year": 2002,
-            "author": "Dogon"
+            "year": 2001,
+            "author": "Dogon",
+            "label": "Stereosupremo",
+            "image": "https://drive.google.com/file/d/1dhgevccqxiXd14IxAfHerQr9H_5qVQ20/view?usp=sharing",
+            "description": "Dogon was the group composed by Økapi, Massimo Pupillo and Martux_M. The album was made mixing turntables, samplers, CDs, tapes, drums and bass, The result is an unique, fresh and energetic style.\nCover art: Camilla Falsini"
         },
         {
             "title": "Rumors of War",
             "year": 2001,
-            "author": "Metaxu"
+            "author": "Metaxu",
+            "label": "No Type",
+            "image": "https://drive.google.com/file/d/1HNmosO_SUFwPL25UoDfF-bm5Z_klqhCW/view?usp=sharing",
+            "description": "A reflection on war atrocities. Each track is dedicated to a city that had been under siege (Sarajevo, Hiroshima, Pearl Harbor, among others)."
         },
         {
-            "title": "NTH",
+            "title": "nth",
             "year": 2001,
-            "author": "Zelle"
-        },
-        {
-            "title": "Dissectio",
-            "year": 2001,
-            "author": "Martux_M"
+            "author": "Zelle",
+            "label": "12k",
+            "image": "https://drive.google.com/file/d/19RYX_N8Tk0ioNfbmAyhNT6ocFXJuo_3R/view?usp=sharing",
+            "description": "Zelle is the name of the duo composed of Martux_M and Nicola Calatano. Their first album NTH is a work of digital electronic minimalism."
         },
         {
             "title": "Metaxu",
             "year": 2000,
-            "author": "Metaxu"
+            "author": "Metaxu",
+            "label": "Plate Lunch",
+            "image": "https://drive.google.com/file/d/1bor-6gL4GnpqRdj_9jiKU1Cg2SXHQYs9/view?usp=sharing",
+            "description": "The first album of the group Metaxu, the duet composed by Martux_M and Økapi (Filippo Paolini). Metaxu is a character of Plato's Symposium, he is the demon of the middle way, always thirsty for knowledge."
         },
         {
             "title": "Unsettled Line",
             "year": 2000,
-            "author": "Martux_M"
+            "author": "Martux_M",
+            "label": "Metamkine",
+            "image": "https://drive.google.com/file/d/1s1uvF2tUXlobp_qIbrcQ0PxWLImsaI4W/view?usp=sharing",
+            "description": "Concrete music inspired by Claudio Mutini's poetic work.",
+            "youtubeUrl": "https://www.youtube.com/watch?v=Atw3w9DqUj8"
         },
         {
             "title": "The Answering Machine Solution",
             "year": 1996,
-            "author": "Martux_M"
+            "author": "Martux_M",
+            "label": "Staalplaat",
+            "image": "https://drive.google.com/file/d/1MHxIS8FqQROp4T9ZSBLUKFenL8A7hkPN/view?usp=sharing",
+            "description": "Al album that gathers quirky mix of answering machine messages."
         },
         {
             "title": "Meta-Harmonies",
             "year": 1995,
-            "author": "Martux_M ft. Elio Martusciello"
+            "author": "Martux_M ft. Elio Martusciello",
+            "label": "Staalplaat",
+            "image": "https://drive.google.com/file/d/1hEw7CivsqghHVIimfM2TEneHN6J51iKT/view?usp=sharing",
+            "description": "A hommage to Jean Tinguely.",
+            "spotifyUrl": "https://open.spotify.com/intl-es/album/2DNBbYiZCWmJlfEacFlXrM?si=jCaZ5mJHSO6WXFTr0TLbZQ"
         }
     ],
     "visual": [
         {
-            "title": "Extension of Selves",
-            "year": 2024
+            "title": "La Maschera del Tempo",
+            "year": 2022,
+            "author": "Martux_M in collaboration with Mattia Casalegno",
+            "image": "https://drive.google.com/file/d/1V8EEb45cUwT19xLLRZW_BaNvXfR6X5u8/view?usp=sharing",
+            "description": "Audiovisual installation set in the picturesque open-air theatre of San Giorgio Island in Venice. It offers a unique perspective of the theatre and a visionary glimpse into an utopian future where nature has reclaimed its space.\nCommissioned by Giorgio Cini Foundation, the work combines footage from the foundation's archive with images generated with experimental technologies and programs, such as Midjourney, Open AI and Unreal Engine 5.\nIt was showcased at the Venice Biennale (2022) and included in the exhibition \"Extension of Selves\" in China's Wuhan Art Museum (2024).",
+            "youtubeUrl": "https://www.youtube.com/watch?v=o6crOPutG1w"
+        },
+        {
+            "title": "Intervallo",
+            "year": 2021,
+            "author": "Martux_M in collaboration with Mattia Casalegno and Stefano Baldi",
+            "image": "https://drive.google.com/file/d/1YDAAxfuriV6ry16RMsxDtIXsfiRWwtUp/view?usp=sharing",
+            "description": "In this audiovisual performance., Martux_M and Mattia Casalegno bring homage to the history and culture of Italy through live electronic music and live-generated visuals.\nThe project takes its title from a show series aired by the State Italian TV (RAI) that became a symbol of Italian heritage and cultural identity during the 70s and 80s. The show, aired daily, consisted of slides of famous Italian landmarks and less-known regional sites, accompanied by text commentary and classical music. Casalegno’s studio meticulously collected and cataloged thousands of Italian postcards. The dataset was employed to train a Generative Adversarial Network (GAN) model, which in turn generated the visual content for the performance.\nThe performance was presented in the Festa della Republica Italiana in 2021, organized by the Italian Institute of Culture in Vienna.",
+            "youtubeUrl": "https://www.youtube.com/watch?v=N3P_wNvXON8&t=2s"
+        },
+        {
+            "title": "The Suspended Gesture",
+            "year": 2010,
+            "author": "Martux_M in collaboration with Mattia Casalegno",
+            "image": "https://drive.google.com/file/d/1GpbBIFlHSg_9L9hSEcx_YzkUs5evuixk/view?usp=sharing",
+            "description": "Audiovisual installation exploring the theme of metamorphosis: digitally generating zoomorphic figures derived from details of fashion designer Roberto Capucci's dress sculptures. The installation comprises six light and sound sculptures dynamically interacting with the surrounding environment: the sculptures respond to visitors' movements as they approach.\nCommissioned by the Roberto Capucci Foundation for the opening of the AltaRomAltaModa event, it was showcased at the Temple of Adriano in Rome.",
+            "vimeoUrl": "https://vimeo.com/13510650"
+        },
+        {
+            "title": "X-Scape Project",
+            "year": 2004,
+            "author": "Martux_M Crew in collaboration with Mattia Casalegno",
+            "image": "https://drive.google.com/file/d/11E8Y4s5XXi8U1AV3KPD_G1MkeHDTak7L/view?usp=sharing",
+            "description": "\"X-Scape Project\" is a multimedia experience that engages different senses through video and sound. In this audiovisual performance the opposition between material and immaterial is overcome by a labyrinth of light, space, emptiness, and complex vibrations.\nThe video design was made by Mattia Casalegno.\nIt was presented at the International Festival of Contemporary Music (Venice) and Digital Life Festival (Rome)."
         },
         {
             "title": "Exceptio",
-            "year": 2003
+            "year": 2005
         },
         {
-            "title": "Fronte D'Onda"
+            "title": "Fronte D'Onda - Invisible Cloak",
+            "year": 2004,
+            "author": "Martux_M Crew in collaboration with Paolo Monti",
+            "image": "https://drive.google.com/file/d/1zTZiZml210rvvy7w4NpfrEz_W8N_DkPA/view?usp=drive_link",
+            "description": "Audiovisual installation.\nA performative kaleidoscope of sound and light waves that infinitely reflect into each other.\nThe work was exhibited at Contemporary Cluster (Rome)."
         }
     ]
 }
