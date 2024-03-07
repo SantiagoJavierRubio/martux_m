@@ -4,7 +4,10 @@ import { promises as fs } from "fs";
 import type { WorkData } from "../utils/workdata";
 
 export default async function Music() {
-  const file = await fs.readFile(process.cwd() + "/app/work/data.json", "utf8");
+  const file = await fs.readFile(
+    process.cwd() + "/app/(pages)/work/data.json",
+    "utf8"
+  );
   const data = JSON.parse(file) as WorkData;
 
   return (

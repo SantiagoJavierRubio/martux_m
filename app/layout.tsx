@@ -28,9 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${lato.variable} ${archivo.variable}`}>
-        <main className="bg-zinc-50 min-h-screen flex flex-col justify-stretch items-stretch font-rubik font-archivo">
-          {children}
-        </main>
+        {children}
         <Footer />
       </body>
     </html>

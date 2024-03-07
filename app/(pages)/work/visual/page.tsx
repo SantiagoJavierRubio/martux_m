@@ -4,7 +4,10 @@ import VisualItem from "./components/VisualItem";
 import { WorkData } from "../utils/workdata";
 
 export default async function Visual() {
-  const file = await fs.readFile(process.cwd() + "/app/work/data.json", "utf8");
+  const file = await fs.readFile(
+    process.cwd() + "/app/(pages)/work/data.json",
+    "utf8"
+  );
   const data = JSON.parse(file) as WorkData;
   return (
     <div className="flex flex-col grow p-8 relative overflow-hidden">
