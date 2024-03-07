@@ -30,7 +30,7 @@ export default function VisualItem({
       onClick={handleOpen}
     >
       {!open && (
-        <div className="absolute inset-0 bg-zinc-950/55 z-10 text-white text-center font-bold flex items-center justify-center ">
+        <div className="absolute inset-0 bg-zinc-950/65 z-10 text-gray-100 text-xl text-center font-bold flex items-center justify-center ">
           {title}
         </div>
       )}
