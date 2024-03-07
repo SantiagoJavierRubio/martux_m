@@ -14,7 +14,7 @@ export default async function Calendar() {
   ];
   return (
     <div className="my-8">
-      <h2 className="text-4xl font-bold text-center uppercase font-orbitron underline underline-offset-8 decoration-1">
+      <h2 className="text-4xl font-bold text-center uppercase  underline underline-offset-8 decoration-1">
         Upcoming events
       </h2>
       <div className="mt-6 divide-y-2 divide-gray-500/30">
@@ -22,7 +22,7 @@ export default async function Calendar() {
           <Event key={event.id} {...event} />
         ))}
       </div>
-      <h2 className="text-4xl font-bold text-center uppercase font-orbitron underline underline-offset-8 decoration-1">
+      <h2 className="text-4xl font-bold text-center uppercase  underline underline-offset-8 decoration-1">
         Past events
       </h2>
       <div className="divide-y-2 divide-gray-500/30">

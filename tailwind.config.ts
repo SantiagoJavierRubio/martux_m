@@ -9,8 +9,8 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        rubik: "var(--font-rubik)",
-        orbitron: "var(--font-orbitron)",
+        lato: "var(--font-lato)",
+        archivo: "var(--font-archivo)",
       },
       colors: {
         applemusic: "#fa586a",
@@ -18,11 +18,6 @@ const config: Config = {
         spotify: "#1ed760",
         instagram: "#C13584",
         soundcloud: "#f50",
-      },
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
     },
   },

@@ -16,10 +16,10 @@ export default function NavBar() {
   const currentStyle = "cursor-default font-bold hover:no-underline";
   const { youtubeUrl, ...mediaLinks } = MEDIA_LINKS;
   return (
-    <nav className="fixed z-50 top-0 inset-x-0 text-black h-24 flex flex-col items-stretch justify-between border-b-2 border-black/20 shadow-md bg-zinc-50 font-or">
+    <nav className="fixed z-50 top-0 inset-x-0 text-black h-24 flex flex-col items-stretch justify-between border-b-2 border-black/20 shadow-md bg-zinc-50">
       <div className="flex flex-row py-2 px-8 sm:px-16 items-center justify-between">
         <Link href="/" target="_self">
-          <h1 className="text-5xl font-extrabold font-orbitron">MARTUX_M</h1>
+          <h1 className="text-5xl font-extrabold">MARTUX_M</h1>
         </Link>
         <SocialLinks {...mediaLinks} size={22} className="hidden sm:flex" />
       </div>

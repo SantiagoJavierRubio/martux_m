@@ -1,13 +1,18 @@
 import type { Metadata } from "next";
-import { Rubik, Orbitron } from "next/font/google";
+import { Lato, Archivo_Narrow } from "next/font/google";
 import "./globals.css";
-import NavBar from "@/app/components/NavBar";
 import Footer from "@/app/components/Footer";
+import NavBar2 from "./components/NavBar2";
 
-const rubik = Rubik({ subsets: ["latin"], variable: "--font-rubik" });
-const orbitron = Orbitron({
+const lato = Lato({
   subsets: ["latin"],
-  variable: "--font-orbitron",
+  weight: ["100", "300", "400", "700", "900"],
+  variable: "--font-lato",
+});
+
+const archivo = Archivo_Narrow({
+  subsets: ["latin"],
+  variable: "--font-archivo",
 });
 
 export const metadata: Metadata = {
@@ -22,9 +27,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${rubik.variable} ${orbitron.variable}`}>
-        <NavBar />
-        <main className="bg-zinc-50 min-h-screen flex flex-col justify-stretch items-stretch pt-24 font-rubik">
+      <body className={`${lato.variable} ${archivo.variable}`}>
+        <NavBar2 />
+        <main className="bg-zinc-50 min-h-screen flex flex-col justify-stretch items-stretch pt-24 font-rubik font-archivo">
           {children}
         </main>
         <Footer />

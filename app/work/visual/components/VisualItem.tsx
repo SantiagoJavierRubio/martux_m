@@ -30,15 +30,15 @@ export default function VisualItem({
       onClick={handleOpen}
     >
       {!open && (
-        <div className="absolute inset-0 bg-zinc-950/55 z-10 text-white text-center font-bold flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-          <span className="animate-pulse">{title}</span>
+        <div className="absolute inset-0 bg-zinc-950/55 z-10 text-white text-center font-bold flex items-center justify-center ">
+          {title}
         </div>
       )}
       <Image
         src={convertToSrc(image)}
         alt={title}
         fill
-        className={"group-hover:blur-sm object-cover"}
+        className={"blur-sm object-cover"}
       />
       {open && (
         <div className="relative w-full h-full bg-black/80 backdrop-blur-lg z-50">
