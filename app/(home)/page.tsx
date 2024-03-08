@@ -15,12 +15,12 @@ export default function Home() {
             loop
             width={1921}
             height={1021}
-            className="object-cover relative max-w-max -translate-x-1/3 sm:-translate-x-1/3 md:-translate-x-1/4 lg:-translate-x-24 xl:translate-x-0"
+            className="object-cover w-full h-full object-center"
           />
         </Link>
       </section>
       <section
-        className="min-h-screen h-full w-full bg-white z-10 relative flex flex-col items-center justify-center"
+        className="min-h-screen h-full w-full bg-zinc-50 z-10 relative"
         id="home"
       >
         <NavBar2 className="sticky w-full border-0" />

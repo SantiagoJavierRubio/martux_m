@@ -6,6 +6,8 @@ import { usePathname } from "next/navigation";
 import { twMerge } from "tailwind-merge";
 
 const currentStyle = "cursor-default font-bold hover:no-underline";
+const defaultStyles =
+  "font-archivo tracking-wider fixed z-50 top-0 px-16 inset-x-0 text-zinc-950 h-16 flex items-center justify-between border-b-2 border-black/20 shadow-md bg-zinc-50";
 
 export default function NavBar2({ className }: HTMLAttributes<HTMLDivElement>) {
   const path = usePathname();
@@ -13,14 +15,12 @@ export default function NavBar2({ className }: HTMLAttributes<HTMLDivElement>) {
     if (path.includes(name)) return true;
     return false;
   };
-  const defaultStyles =
-    "font-archivo tracking-wider fixed z-50 top-0 px-16 inset-x-0 text-black h-16 flex items-center justify-between border-b-2 border-black/20 shadow-md bg-zinc-50";
   return (
     <nav className={twMerge(defaultStyles, className)}>
       <Link href="/#home">
-        <h1 className="text-xl font-extrabold text-black/30">MARTUX_M</h1>
+        <h1 className="text-xl font-extrabold text-zinc-950/40">MARTUX_M</h1>
       </Link>
-      <div className="flex items-center underline-offset-4 text-slate-700 justify-end gap-12 uppercase text-lg text-black/80">
+      <div className="flex items-center underline-offset-4 text-zinc-700 justify-end gap-12 uppercase text-lg text-black/80">
         <Link
           className={`hover:underline  ${getIsPath("music") && currentStyle}`}
           href="/work/music"
