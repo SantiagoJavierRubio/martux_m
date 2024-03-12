@@ -2,6 +2,7 @@ import React from "react";
 import { promises as fs } from "fs";
 import VisualItem from "./components/VisualItem";
 import { WorkData } from "../utils/workdata";
+import { CoverImageSection } from "../components/CoverImageSection";
 
 export default async function Visual() {
   const file = await fs.readFile(
@@ -10,13 +11,16 @@ export default async function Visual() {
   );
   const data = JSON.parse(file) as WorkData;
   return (
-    <div className="flex flex-col grow p-8 relative overflow-hidden">
-      <h1 className="text-5xl uppercase ">Installations & digital art</h1>
-      <div className="grow grid grid-flow-row sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-2 my-6">
-        {data.visual.map((work) => (
-          <VisualItem key={work.title} {...work} />
-        ))}
-      </div>
-    </div>
+    <CoverImageSection
+      title="Installations & digital art"
+      imgSource="/visualarts-cover.jpeg"
+      imgAltText="Out of focus human figure with white background"
+      imgSizes={{ width: 9600, height: 6376 }}
+      className="grid grid-flow-row sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-2 pt-20 pb-[100svh] mt-6 relative"
+    >
+      {data.visual.map((work) => (
+        <VisualItem key={work.title} {...work} />
+      ))}
+    </CoverImageSection>
   );
 }
