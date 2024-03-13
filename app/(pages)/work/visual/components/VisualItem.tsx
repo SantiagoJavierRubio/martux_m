@@ -58,7 +58,7 @@ const OpenedVisualItem = ({
       />
       <div className="relative w-full h-full min-h-svh bg-black/80 backdrop-blur-lg z-20 overflow-y-auto">
         <button
-          className="fixed top-4 left-4 text-white cursor-pointer"
+          className="sticky top-4 left-4 text-white cursor-pointer"
           onClick={handleClose}
         >
           <CgClose size={42} />

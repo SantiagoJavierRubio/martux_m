@@ -18,7 +18,9 @@ export default function NavBar2({ className }: HTMLAttributes<HTMLDivElement>) {
   return (
     <nav className={twMerge(defaultStyles, className)}>
       <Link href="/#home">
-        <h1 className="text-xl font-extrabold text-zinc-950/40">MARTUX_M</h1>
+        <h1 className="text-xl font-extrabold text-zinc-950/40 tracking-widest">
+          MARTUX_M
+        </h1>
       </Link>
       <div className="flex items-center underline-offset-4 text-zinc-700 justify-end gap-12 uppercase text-lg text-black/80">
         <Link

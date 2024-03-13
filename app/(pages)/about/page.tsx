@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { DifuminatedName } from "@/app/components/DifuminatedName";
 
 export default function About() {
   return (
@@ -14,9 +15,12 @@ export default function About() {
         />
       </div>
       <div className="col-span-3 col-start-3 flex flex-col items-center justify-center w-full gap-2 pt-8">
-        <h3 className="text-lg">Meet the artist</h3>
-        <h1 className="text-6xl font-extrabold ">MARTUX_M</h1>
-        <div className="p-8 text-justify leading-6">
+        <h3 className="text-xl tracking-widest">Meet the artist</h3>
+        <DifuminatedName
+          className="text-zinc-950"
+          centerStyles="blur-[0.6px]"
+        />
+        <div className="p-8 text-justify leading-7 tracking-wide">
           <p>
             <span className="font-semibold">Maurizio Martusciello</span>, also
             known as Martux_M, is an Italian electronic music musician,
