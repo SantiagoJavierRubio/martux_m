@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import NavBar2 from "@/app/components/NavBar2";
+import { DifuminatedName } from "../components/DifuminatedName";
 
 export default function Home() {
   return (
@@ -15,12 +16,12 @@ export default function Home() {
             loop
             width={1921}
             height={1021}
-            className="object-cover relative max-w-max -translate-x-1/3 sm:-translate-x-1/3 md:-translate-x-1/4 lg:-translate-x-24 xl:translate-x-0"
+            className="object-cover w-full h-full object-center"
           />
         </Link>
       </section>
       <section
-        className="min-h-screen h-full w-full bg-white z-10 relative flex flex-col items-center justify-center"
+        className="min-h-screen h-full w-full bg-zinc-50 z-10 relative"
         id="home"
       >
         <NavBar2 className="sticky w-full border-0" />
@@ -34,13 +35,14 @@ export default function Home() {
           />
         </div>
         <div className="flex flex-col max-w-2xl m-auto gap-8 items-center justify-center h-screen">
-          <h1 className="text-[2.8rem] text-white z-10">
+          <DifuminatedName />
+          {/* <h1 className="text-[2.8rem] text-white z-10">
             <span className="blur-[3.8px]">MARTU</span>
             <span className="text-8xl blur-[1px] font-light font-lato opacity-40">
               X
             </span>
             <span className="blur-[3.8px]">_M</span>
-          </h1>
+          </h1> */}
           <p className="text-xl px-8 leading-9 text-center tracking-wider text-gray-200 z-10">
             MARTUX_M IS AN ITALIAN SOUND ARTIST, COMPOSER, PERFORMER, AND
             PRODUCER. HIS WORK EXPLORES THE REALMS OF ELECTRONIC MUSIC WITH A
