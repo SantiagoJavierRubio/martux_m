@@ -9,9 +9,9 @@ export default function Home() {
       <section className="bg-black h-screen max-h-screen w-full relative overflow-hidden z-0">
         <Link href="#home" className="fixed inset-0 z-0">
           <video
-            src="/bellaciao.mp4"
+            src="/video/bellaciao.mp4"
             autoPlay
-            poster="/bellaciao_stillframe.png"
+            poster="/video/bellaciao_stillframe.png"
             muted
             loop
             width={1921}
@@ -27,7 +27,7 @@ export default function Home() {
         <NavBar2 className="sticky w-full border-0" />
         <div className="absolute top-16 inset-x-0 bottom-0 bg-black">
           <Image
-            src="/eclipse1.jpg"
+            src="/fotos/eclipse1.jpg"
             alt="eclipse work cover"
             width={740}
             height={740}
@@ -35,7 +35,13 @@ export default function Home() {
           />
         </div>
         <div className="flex flex-col max-w-2xl m-auto gap-8 items-center justify-center h-screen">
-          <DifuminatedName />
+          <Image
+            src="/logos/LogoMini.png"
+            alt="Logo Mx"
+            width={500}
+            height={500}
+            className="invert w-1/4"
+          />
           {/* <h1 className="text-[2.8rem] text-white z-10">
             <span className="blur-[3.8px]">MARTU</span>
             <span className="text-8xl blur-[1px] font-light font-lato opacity-40">

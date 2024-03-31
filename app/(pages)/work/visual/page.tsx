@@ -13,10 +13,11 @@ export default async function Visual() {
   return (
     <CoverImageSection
       title="Installations & digital art"
-      imgSource="/visualarts-cover.jpeg"
+      imgSource="/fotos/DSCN1077.JPG"
       imgAltText="Out of focus human figure with white background"
       imgSizes={{ width: 9600, height: 6376 }}
       className="grid grid-flow-row sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-2 pt-20 pb-[100svh] mt-6 relative"
+      imgStyles="object-bottom"
     >
       {data.visual.map((work) => (
         <VisualItem key={work.title} {...work} />

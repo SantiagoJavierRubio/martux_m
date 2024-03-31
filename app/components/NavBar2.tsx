@@ -1,6 +1,7 @@
 "use client";
 
 import type { HTMLAttributes } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { twMerge } from "tailwind-merge";
@@ -17,10 +18,17 @@ export default function NavBar2({ className }: HTMLAttributes<HTMLDivElement>) {
   };
   return (
     <nav className={twMerge(defaultStyles, className)}>
-      <Link href="/#home">
-        <h1 className="text-xl font-extrabold text-zinc-950/40 tracking-widest">
+      <Link href="/#home" className="h-full flex items-center">
+        <Image
+          src="/logos/LogoEsteso.png"
+          alt="Martux_M logo"
+          width={932}
+          height={244}
+          className="w-40 pt-1"
+        />
+        {/* <h1 className="text-xl font-extrabold text-zinc-950/40 tracking-widest">
           MARTUX_M
-        </h1>
+        </h1> */}
       </Link>
       <div className="flex items-center underline-offset-4 text-zinc-700 justify-end gap-12 uppercase text-lg text-black/80">
         <Link

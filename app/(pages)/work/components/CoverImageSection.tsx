@@ -6,6 +6,7 @@ import { twMerge } from "tailwind-merge";
 type CoverImageSectionProps = {
   imgSource: string;
   imgAltText: string;
+  imgStyles?: string;
   title: string;
   imgSizes: {
     width: number;
@@ -19,6 +20,7 @@ export function CoverImageSection({
   imgSource,
   imgAltText,
   imgSizes,
+  imgStyles,
   title,
   children,
   className,
@@ -33,7 +35,10 @@ export function CoverImageSection({
             alt={imgAltText}
             width={imgSizes.width}
             height={imgSizes.height}
-            className="object-cover object-center w-full h-full"
+            className={twMerge(
+              "object-cover object-center w-full h-full",
+              imgStyles
+            )}
           />
           <div className="fixed inset-0 h-full bg-black/50 flex items-center justify-center text-center">
             <h1 className="text-8xl font-semibold tracking-[1rem] text-zinc-50 uppercase">
