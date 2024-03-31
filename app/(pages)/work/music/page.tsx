@@ -1,7 +1,6 @@
 import React from "react";
 import { promises as fs } from "fs";
-import Link from "next/link";
-import Image from "next/image";
+import musicCover from "@/public/fotos/cover-music.jpg";
 
 import MusicItem from "./components/MusicItem";
 import type { WorkData } from "../utils/workdata";
@@ -17,7 +16,7 @@ export default async function Music() {
   return (
     <CoverImageSection
       title="Music"
-      imgSource="/cover-music.jpg"
+      imgSource={musicCover}
       imgAltText="Music studio with console and keyboards"
       imgSizes={{ width: 3024, height: 3780 }}
       className="gap-8 pt-20"

@@ -1,10 +1,11 @@
 import React, { type HTMLAttributes } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import type { StaticImport } from "next/dist/shared/lib/get-img-props";
 import { twMerge } from "tailwind-merge";
 
 type CoverImageSectionProps = {
-  imgSource: string;
+  imgSource: string | StaticImport;
   imgAltText: string;
   imgStyles?: string;
   title: string;
@@ -35,6 +36,7 @@ export function CoverImageSection({
             alt={imgAltText}
             width={imgSizes.width}
             height={imgSizes.height}
+            placeholder="blur"
             className={twMerge(
               "object-cover object-center w-full h-full",
               imgStyles
