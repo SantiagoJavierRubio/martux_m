@@ -56,6 +56,15 @@ export default function NavBar2({ className }: HTMLAttributes<HTMLDivElement>) {
         >
           About
         </Link>
+        <Link
+          className={`hover:underline underline-offset-2 ${
+            getIsPath("writings") && currentStyle
+          }`}
+          href="/writings"
+          target="_self"
+        >
+          Writings
+        </Link>
         {/* <Link
           className={`hover:underline underline-offset-2 ${
             getIsPath("calendar") && currentStyle

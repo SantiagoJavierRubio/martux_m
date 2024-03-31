@@ -2,7 +2,7 @@ import React from "react";
 import { promises as fs } from "fs";
 import VisualItem from "./components/VisualItem";
 import { WorkData } from "../utils/workdata";
-import { CoverImageSection } from "../components/CoverImageSection";
+import { CoverImageSection } from "../../components/CoverImageSection";
 import visualCover from "@/public/fotos/cover-visual.jpg";
 
 export default async function Visual() {

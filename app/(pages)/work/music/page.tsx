@@ -4,7 +4,7 @@ import musicCover from "@/public/fotos/cover-music.jpg";
 
 import MusicItem from "./components/MusicItem";
 import type { WorkData } from "../utils/workdata";
-import { CoverImageSection } from "../components/CoverImageSection";
+import { CoverImageSection } from "../../components/CoverImageSection";
 
 export default async function Music() {
   const file = await fs.readFile(
