@@ -14,7 +14,7 @@ export default function CoverImage({
   const [imgSrc, setImgSrc] = useState(convertToSrc(url));
   const [loading, setLoading] = useState<boolean>(true);
   return (
-    <div className="relative aspect-square rounded-md overflow-hidden col-span-1">
+    <div className="relative aspect-square rounded-md overflow-hidden col-span-full lg:col-span-1">
       <div
         className={`absolute opacity-95 inset-0 from-gray-400 from-60% to-gray-300 bg-gradient-to-b animate-pulse ${
           !loading && "hidden"

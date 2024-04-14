@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Lato, Archivo_Narrow } from "next/font/google";
 import "./globals.css";
 import Footer from "@/app/components/Footer";
-import NavBar2 from "./components/NavBar2";
+import NavBar from "./components/NavBar";
 
 const lato = Lato({
   subsets: ["latin"],

@@ -29,7 +29,7 @@ export function CoverImageSection({
 }: CoverImageSectionProps) {
   return (
     <>
-      <div className="bg-black w-full max-w-screen overflow-hidden max-h-screen h-screen relative">
+      <div className="bg-black w-full overflow-hidden max-h-screen h-screen relative">
         <Link href="#content" className="fixed inset-0 z-0">
           <Image
             src={imgSource}
@@ -43,7 +43,7 @@ export function CoverImageSection({
             )}
           />
           <div className="fixed inset-0 h-full bg-black/50 flex items-center justify-center text-center">
-            <h1 className="text-8xl font-semibold tracking-[1rem] text-zinc-50 uppercase">
+            <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-semibold tracking-[1rem] lg:max-w-max text-center text-zinc-50 uppercase">
               {title}
             </h1>
           </div>

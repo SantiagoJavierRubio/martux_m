@@ -49,7 +49,7 @@ const OpenedVisualItem = ({
   handleClose,
 }: VisualEntry & { handleClose: () => void }) => {
   return (
-    <div className="fixed inset-0 top-16 w-full h-full flex items-center justify-center z-20">
+    <div className="fixed inset-0 lg:top-16 w-full h-full flex items-center justify-center z-20">
       <Image
         src={convertToSrc(image)}
         alt={title}
@@ -63,19 +63,19 @@ const OpenedVisualItem = ({
         >
           <CgClose size={42} />
         </button>
-        <div className="flex flex-col text-white items-center h-full justify-start gap-5 py-4 max-w-5xl m-auto mb-72">
-          <h3 className="text-5xl font-bold">{title}</h3>
+        <div className="flex flex-col text-white items-center h-full justify-start gap-5 text-center lg:text-left lg:py-4 p-4 lg:p-0 max-w-5xl m-auto mb-72">
+          <h3 className="text-6xl lg:text-5xl font-bold">{title}</h3>
           <p className="text-lg italic">
             {author} - {year}
           </p>
-          <p className="text-xl">{description}</p>
+          <p className="lg:text-xl text-left text-2xl">{description}</p>
           {youtubeUrl && (
             <iframe
               title="YouTube video player"
               src={convertToEmbed(youtubeUrl, "youtube")}
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen
-              className="aspect-video w-full max-w-3xl"
+              className="aspect-video w-full lg:max-w-3xl"
             />
           )}
           {vimeoUrl && !youtubeUrl && (
@@ -84,7 +84,7 @@ const OpenedVisualItem = ({
               src={convertToEmbed(vimeoUrl, "vimeo")}
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen
-              className="aspect-video w-full max-w-3xl"
+              className="aspect-video w-full lg:max-w-3xl"
             />
           )}
         </div>
@@ -107,7 +107,7 @@ const ClosedVisualItem = ({
       className="relative group aspect-square rounded-md overflow-hidden cursor-pointer transition-all"
       onClick={handleOpen}
     >
-      <div className="absolute inset-0 bg-zinc-950/65 z-10 text-gray-100 text-xl text-center font-bold flex items-center justify-center ">
+      <div className="absolute inset-0 bg-zinc-950/65 z-10 text-gray-100 text-2xl lg:text-xl text-center font-bold flex items-center justify-center ">
         {title}
       </div>
       <Image

@@ -6,7 +6,7 @@ import { DifuminatedName } from "@/app/components/DifuminatedName";
 export default function About() {
   return (
     <div className="grid grid-cols-5 w-full h-full grow relative text-black">
-      <div className="abasolute inset-0">
+      <div className="absolute inset-0">
         <Image
           src="/fotos/Martux1.jpg"
           alt="profile"
@@ -15,14 +15,13 @@ export default function About() {
         />
       </div>
       {/* <div className="col-span-2 col-start-4 flex flex-col items-center justify-center w-full gap-2 pt-8"> */}
-      <div className="col-span-1 col-start-1 p-16">
-        <h3 className="text-xl tracking-widest">Meet the artist</h3>
+      <div className="col-span-full lg:col-span-1 col-start-1 p-16 my-12 flex items-center lg:block">
         <DifuminatedName
-          className="text-zinc-950"
+          className="text-zinc-950 m-auto"
           centerStyles="blur-[0.6px]"
         />
       </div>
-      <div className="pr-6 text-justify text-xl leading-7 tracking-wide col-span-2 col-start-4 z-20">
+      <div className="p-6 mt-44 lg:mt-0 text-2xl py-12 lg:py-0 lg:pr-6 text-justify lg:text-xl leading-7 tracking-wide col-span-full col-start-1 lg:col-span-2 lg:col-start-4 z-20 bg-slate-50/75 lg:bg-transparent">
         <p>
           <span className="font-semibold">Maurizio Martusciello</span>, also
           known as Martux_M, is an Italian electronic music musician, composer,

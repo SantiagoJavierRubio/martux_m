@@ -1,4 +1,5 @@
-import NavBar2 from "@/app/components/NavBar2";
+import NavBar from "@/app/components/NavBar";
+import NavMenu from "../components/NavMenu";
 
 export default function RootLayout({
   children,
@@ -7,8 +8,9 @@ export default function RootLayout({
 }>) {
   return (
     <>
-      <NavBar2 />
-      <main className="bg-zinc-50 min-h-screen flex flex-col justify-stretch items-stretch font-archivo mt-16 relative">
+      <NavBar className="hidden lg:flex" />
+      <NavMenu className="lg:hidden" />
+      <main className="bg-zinc-50 min-h-screen flex flex-col justify-stretch items-stretch font-archivo lg:mt-16 relative">
         {children}
       </main>
     </>
