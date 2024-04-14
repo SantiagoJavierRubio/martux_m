@@ -17,7 +17,7 @@ export default function About() {
       {/* <div className="col-span-2 col-start-4 flex flex-col items-center justify-center w-full gap-2 pt-8"> */}
       <div className="col-span-full lg:col-span-1 col-start-1 p-16 my-12 flex items-center lg:block">
         <DifuminatedName
-          className="text-zinc-950 m-auto"
+          className="text-zinc-950 m-auto text-4xl"
           centerStyles="blur-[0.6px]"
         />
       </div>
