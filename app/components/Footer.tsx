@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer
       id="footer"
-      className="h-lvh/3 min-h-44 bg-zinc-950 relative flex items-center justify-center text-center text-white flex-col gap-2 py-8 z-50"
+      className="h-lvh/3 min-h-44 bg-zinc-950 relative flex items-center justify-center text-center text-white flex-col gap-2 py-8 z-40"
     >
       <h6 className="text-3xl font-bold">Get in touch</h6>
       <a href="mailto: martuxm@gmail.com" className="text-lg hover:underline">
