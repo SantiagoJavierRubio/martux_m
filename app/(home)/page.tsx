@@ -1,7 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
 import NavBar from "@/app/components/NavBar";
-import { DifuminatedName } from "../components/DifuminatedName";
 import NavMenu from "../components/NavMenu";
 
 export default function Home() {
@@ -17,6 +16,8 @@ export default function Home() {
             loop
             width={1921}
             height={1021}
+            playsInline
+            controls={false}
             className="object-cover w-full h-full object-center"
           />
         </Link>
@@ -26,7 +27,6 @@ export default function Home() {
         id="home"
       >
         <NavBar className="sticky w-full border-0 hidden lg:flex" />
-        <NavMenu className="lg:hidden" />
         <div className="absolute top-0 lg:top-16 inset-x-0 bottom-0 bg-black">
           <Image
             src="/fotos/eclipse1.jpg"

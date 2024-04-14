@@ -16,9 +16,9 @@ export default function MusicItem({
   year,
 }: MusicEntry) {
   return (
-    <div className="grow w-full grid grid-cols-4 gap-4 text-zinc-900 text-center lg:text-left">
+    <div className="grow w-full lg:grid lg:grid-cols-4 gap-4 text-zinc-900 text-center lg:text-left">
       <CoverImage url={image} alt={title + " cover"} />
-      <div className="grow h-full flex flex-col col-span-full lg:col-span-3 lg:col-start-2 justify-center gap-2 leading-8 tracking-wide">
+      <div className="grow h-full flex flex-col lg:col-span-3 lg:col-start-2 justify-center gap-2 leading-8 tracking-wide">
         <div className="my-2">
           <h3 className="font-semibold text-3xl mb-2">
             {title}

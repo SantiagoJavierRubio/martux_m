@@ -3,6 +3,7 @@ import { Lato, Archivo_Narrow } from "next/font/google";
 import "./globals.css";
 import Footer from "@/app/components/Footer";
 import NavBar from "./components/NavBar";
+import NavMenu from "./components/NavMenu";
 
 const lato = Lato({
   subsets: ["latin"],
@@ -28,6 +29,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${lato.variable} ${archivo.variable}`}>
+        <NavMenu className="lg:hidden" />
         {children}
         <Footer />
       </body>

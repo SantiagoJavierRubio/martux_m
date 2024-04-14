@@ -9,7 +9,6 @@ export default function RootLayout({
   return (
     <>
       <NavBar className="hidden lg:flex" />
-      <NavMenu className="lg:hidden" />
       <main className="bg-zinc-50 min-h-screen flex flex-col justify-stretch items-stretch font-archivo lg:mt-16 relative">
         {children}
       </main>
