@@ -11,17 +11,18 @@ export default function About() {
           src="/fotos/Martux1.jpg"
           alt="profile"
           fill
-          className="object-cover"
+          className="object-cover hidden md:block"
         />
+        <Image src="/fotos/yes_i_am.jpg" alt="martux" fill className="object-contain object-top md:hidden" />
       </div>
       {/* <div className="col-span-2 col-start-4 flex flex-col items-center justify-center w-full gap-2 pt-8"> */}
-      <div className="col-span-full lg:col-span-1 col-start-1 p-16 my-12 flex items-center lg:block">
+      <div className="col-span-full mt-[60svh] lg:col-span-1 col-start-1 p-16 md:my-12 flex items-center lg:block">
         <DifuminatedName
           className="text-zinc-950 m-auto text-4xl"
           centerStyles="blur-[0.6px]"
         />
       </div>
-      <div className="p-6 mt-44 lg:mt-0 text-2xl py-12 lg:py-0 lg:pr-6 text-justify lg:text-xl leading-7 tracking-wide col-span-full col-start-1 lg:col-span-2 lg:col-start-4 z-20 bg-slate-50/75 lg:bg-transparent">
+      <div className="p-6 lg:mt-6 text-2xl bg-white pt-0 md:py-12 lg:py-0 lg:pr-6 text-justify lg:text-xl leading-7 tracking-wide col-span-full col-start-1 lg:col-span-2 lg:col-start-4 z-20 md:bg-slate-50/75 lg:bg-transparent">
         <p>
           <span className="font-semibold">Maurizio Martusciello</span>, also
           known as Martux_M, is an Italian electronic music musician, composer,
