@@ -1,6 +1,8 @@
 "use client";
 
 import React, { useState } from "react";
+import _ from 'lodash';
+
 type WritingProps = {
   title: string;
   date: Date;
@@ -10,7 +12,8 @@ type WritingProps = {
 const LIMIT = 350;
 
 export default function Writing({ title, date, text }: WritingProps) {
-  const [isExpanded, setExpanded] = useState<boolean>(text.length <= LIMIT);
+  const parsedText = _.unescape(text)
+  const [isExpanded, setExpanded] = useState<boolean>(parsedText.length <= LIMIT);
 
   return (
     <div
@@ -25,10 +28,10 @@ export default function Writing({ title, date, text }: WritingProps) {
         })}
       </h3>
 
-      <pre className="font-lato">
-        {isExpanded ? text : text.slice(0, LIMIT).trimEnd() + "..."}
-      </pre>
-      {text.length > 350 && (
+      <p className="font-lato max-w-full text-pretty whitespace-pre-wrap">
+        {isExpanded ? parsedText : parsedText.slice(0, LIMIT).trimEnd() + "..."}
+      </p>
+      {parsedText.length > 350 && (
         <>
           {isExpanded ? (
             <button
