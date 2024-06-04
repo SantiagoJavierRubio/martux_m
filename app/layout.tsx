@@ -19,6 +19,19 @@ const archivo = Archivo_Narrow({
 export const metadata: Metadata = {
   title: "Martux_M",
   description: "Italian sound artist, composer, performer and producer",
+  openGraph: {
+    type: "website",
+    description: "Italian sound artist, composer, performer and producer",
+    siteName: "Martux M",
+    title: "Martux M",
+    images: [
+      {
+        url: 'https://martux-m.vercel.app/logos/LogoMini.png',
+        width: 500,
+        height: 500
+      }
+    ]
+  }
 };
 
 export default function RootLayout({
