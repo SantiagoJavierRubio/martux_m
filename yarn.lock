@@ -77,6 +77,19 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-2.0.2.tgz#d9fae00a2d5cb40f92cfe64b47ad749fbc38f917"
   integrity sha512-6EwiSjwWYP7pTckG6I5eyFANjPhmPjUX9JRLUSfNPC7FX7zK9gyZAfUEaECL6ALTpGX5AjnBq3C9XmVWPitNpw==
 
+"@iframe-resizer/core@5.0.2":
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/@iframe-resizer/core/-/core-5.0.2.tgz#d8cb077c2ed6f0f61f20be0f54934076e77488e4"
+  integrity sha512-HxQa8H1PPNAbUE+xWNR+IkDEh8yht4Uk+Wf79eBo+ia5nYUzM9T3Jlw+K05Gos22NaEjSra9Q/HL8lr64uxZdA==
+
+"@iframe-resizer/react@^5.0.2":
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/@iframe-resizer/react/-/react-5.0.2.tgz#aba5e41872425e45ef97f52f0487ffed19374e34"
+  integrity sha512-4NkliSSTyY4+XV2KUkLLOXUNqsJmRIcwLfteK8SRGL+pt6NtHfa9VFtBy5wB6fGXjYYJvEoT32QHQUOB+P173Q==
+  dependencies:
+    "@iframe-resizer/core" "5.0.2"
+    warning "^4.0.3"
+
 "@img/sharp-darwin-arm64@0.33.3":
   version "0.33.3"
   resolved "https://registry.yarnpkg.com/@img/sharp-darwin-arm64/-/sharp-darwin-arm64-0.33.3.tgz#2bbf676be830c5a9ae7d9294f201c9151535badd"
@@ -2082,7 +2095,7 @@ lodash@^4.17.21:
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
-loose-envify@^1.1.0, loose-envify@^1.4.0:
+loose-envify@^1.0.0, loose-envify@^1.1.0, loose-envify@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/loose-envify/-/loose-envify-1.4.0.tgz#71ee51fa7be4caec1a63839f7e682d8132d30caf"
   integrity sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==
@@ -3072,6 +3085,13 @@ uuid@^9.0.0:
   version "9.0.1"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-9.0.1.tgz#e188d4c8853cc722220392c424cd637f32293f30"
   integrity sha512-b+1eJOlsR9K8HJpow9Ok3fiWOWSIcIzXodvv0rQjVoOVNpWMpxf1wZNpt4y9h10odCNrqnYp1OBzRktckBe3sA==
+
+warning@^4.0.3:
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/warning/-/warning-4.0.3.tgz#16e9e077eb8a86d6af7d64aa1e05fd85b4678ca3"
+  integrity sha512-rpJyN222KWIvHJ/F53XSZv0Zl/accqHR8et1kpaMTD/fLCRxtV8iX8czMzY7sVZupTI3zcUTg8eycS2kNF9l6w==
+  dependencies:
+    loose-envify "^1.0.0"
 
 webidl-conversions@^3.0.0:
   version "3.0.1"
