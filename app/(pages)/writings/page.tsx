@@ -5,27 +5,20 @@ import { CoverImageSection } from "../components/CoverImageSection";
 import Writing from "./Writing";
 
 const files = [
-  '-Martusciello-Metaxu.html',
-  'About a silent way 4.html',
-  'About Olindo Fortino.html',
-  'beat-ween zone.html',
-  'Dissectio in Francese.html',
-  'ENG About in a Silent Way 3-1.html',
-  'Essere dei capolavori.html',
-  'Interv auditorium.html',
-  'intervista Blow Up.html',
-  'intervista digicult.html',
-  'Intervista Pereira.html',
-  'Ipercorpo spaesamenti...html',
-  'Le Tre bolle.html',
-  'M-Chion.html',
-  'Martux_m + acustico.html',
-  'Metaxu - Intervista in 80F.html',
-  'metaxu-di massimo Canevacci.html',
-  'NON-DICE.html',
-  'Presentazione Reminescence.html',
-  'Scritto per paolo ruffini 2.html',
-  'testo Reminescence 2.html'
+  'Be masterpieces by Martux_m.html',
+  'Hyperbody by Martux_m.html',
+  'Installation Controllo e Divenire by Martux_m.html',
+  'interview Martux_m about Metaxu.html',
+  'Interview with Martux_m  by Rogelio Pereira.html',
+  'Martux_m About Michel Chion.html',
+  'Martux_m Filisofy.html',
+  'Martux_m the sense of contemporaneity of sounds.html',
+  'Massimo Canevacci About METAXU.html',
+  'MJ Magazine - Martux_m.html',
+  'Reflections Martux_m.html',
+  "X-Scape Interview Martux_m  by Claudia D'Alonzo -  Digicult  Magazine.html", 
+  'X-Scape Interview to Martux_m.html',
+  'in-beat-ween  zone by Martux_m.html'
 ]
 
 export default async function Music() {
@@ -38,7 +31,7 @@ export default async function Music() {
       className="gap-8 p-3 pt-20"
       imgStyles="object-top"
     >
-      <div className="min-h-svh flex flex-col gap-6">
+      <div className="min-h-svh flex flex-col gap-12">
         {files.map(file => 
           <Writing key={file} title={file.replace('.html', '')} text={file} />
         )}
