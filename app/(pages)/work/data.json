@@ -213,7 +213,7 @@
             "author": "Martux_M in collaboration with Mattia Casalegno and Stefano Baldi",
             "image": "https://drive.google.com/file/d/1YDAAxfuriV6ry16RMsxDtIXsfiRWwtUp/view?usp=sharing",
             "description": "In this audiovisual performance., Martux_M and Mattia Casalegno bring homage to the history and culture of Italy through live electronic music and live-generated visuals.\nThe project takes its title from a show series aired by the State Italian TV (RAI) that became a symbol of Italian heritage and cultural identity during the 70s and 80s. The show, aired daily, consisted of slides of famous Italian landmarks and less-known regional sites, accompanied by text commentary and classical music. Casalegno’s studio meticulously collected and cataloged thousands of Italian postcards. The dataset was employed to train a Generative Adversarial Network (GAN) model, which in turn generated the visual content for the performance.\nThe performance was presented in the Festa della Republica Italiana in 2021, organized by the Italian Institute of Culture in Vienna.",
-            "youtubeUrl": "https://www.youtube.com/watch?v=N3P_wNvXON8&t=2s"
+            "youtubeUrl": "https://www.youtube.com/watch?v=N3P_wNvXON8"
         },
         {
             "title": "Controllo e divenire",
