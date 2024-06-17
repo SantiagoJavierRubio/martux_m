@@ -1,6 +1,14 @@
 {
     "music": [
         {
+            "title": "NEBULA",
+            "author": "Martux_M",
+            "description": "",
+            "year": 2024,
+            "image": "https://drive.google.com/file/d/1724BpZgkR1ibNOkYFC13rKk0t5qleBLN/view?usp=sharing",
+            "spotifyUrl": "https://open.spotify.com/track/0CHqb166GIzqnu3jNIYB6N?si=zX_u-XPySGKElcoQjjvaiw"
+        },
+        {
             "title": "Nearly Invisible Stitches",
             "year": 2022,
             "author": "Martux_M ft. Lymbic",
@@ -191,7 +199,7 @@
         {
             "title": "Meta-Harmonies",
             "year": 1995,
-            "author": "Martux_M ft. Elio Martusciello",
+            "author": "Martux_M",
             "label": "Staalplaat",
             "image": "https://drive.google.com/file/d/1hEw7CivsqghHVIimfM2TEneHN6J51iKT/view?usp=sharing",
             "description": "A hommage to Jean Tinguely.",

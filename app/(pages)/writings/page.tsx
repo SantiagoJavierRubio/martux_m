@@ -5,6 +5,7 @@ import { CoverImageSection } from "../components/CoverImageSection";
 import Writing from "./Writing";
 
 const files = [
+  "Nebula.html",
   'Be masterpieces by Martux_m.html',
   'Hyperbody by Martux_m.html',
   'Installation Controllo e Divenire by Martux_m.html',

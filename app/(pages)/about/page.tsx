@@ -53,8 +53,8 @@ export default function About() {
           and events worldwide, including the Venice Biennale, El Sónar
           (Barcelona), the International Festival of Contemporary Music
           (Venice), Digital Life Festival (Rome), Festival RomaEuropa (Rome),
-          Villette Numérique (Paris), and the MUTEK Festival in Canada and
-          Argentina.
+          Villette Numérique (Paris), and the MUTEK Festival in Canada,
+          Argentina and Chile.
         </p>
       </div>
     </div>

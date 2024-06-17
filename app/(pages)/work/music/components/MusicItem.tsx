@@ -28,7 +28,7 @@ export default function MusicItem({
             </span>
           </h3>
           <p className="text-lg">
-            {year} - <span className="italic">{label}</span>
+            {year} {label ? '-' : ''} <span className="italic">{label}</span>
           </p>
         </div>
         <p className="text-xl lg:text-lg leading-5 tracking-normal text-left">
