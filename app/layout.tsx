@@ -31,6 +31,9 @@ export const metadata: Metadata = {
         height: 500
       }
     ]
+  },
+  verification: {
+    google: "kx6Zf3nw_EU5pCwT_YrSS1cOpsG2FqUkL1nrm2sXlaM"
   }
 };
 
