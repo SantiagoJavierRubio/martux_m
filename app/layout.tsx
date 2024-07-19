@@ -18,10 +18,11 @@ const archivo = Archivo_Narrow({
 
 export const metadata: Metadata = {
   title: "Martux_M",
-  description: "Italian sound artist, composer, performer and producer",
+  description: "Official Site for Martux_m, an italian Sound Artist, Composer, Performer and Producer. See Martux's Music, Digital Arts and Installations. Know more about the artist and where to find him.",
+  keywords: ["Sound artist", "Italian", "Music", "Martux", "Martux_m", "Martux m", "Maurizio Martusciello", "Artist", "Musician", "Martux_m Crew"],
   openGraph: {
     type: "website",
-    description: "Italian sound artist, composer, performer and producer",
+    description: "Official Site for Martux_m, an italian Sound Artist, Composer, Performer and Producer. See Martux's Music, Digital Arts and Installations. Know more about the artist and where to find him.",
     siteName: "Martux M",
     title: "Martux M",
     images: [

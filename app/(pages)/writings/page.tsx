@@ -12,7 +12,7 @@ const files = [
   'interview Martux_m about Metaxu.html',
   'Interview with Martux_m  by Rogelio Pereira.html',
   'Martux_m About Michel Chion.html',
-  'Martux_m Filisofy.html',
+  'Martux_m Philosophy.html',
   'Martux_m the sense of contemporaneity of sounds.html',
   'Massimo Canevacci About METAXU.html',
   'MJ Magazine - Martux_m.html',
